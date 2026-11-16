@@ -1,0 +1,43 @@
+.placeholder-page {
+  min-height: 100vh;
+  padding: 180px 20px 80px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  background:
+    radial-gradient(circle at top left, #f5ead6 0, transparent 35%),
+    var(--ivory);
+}
+
+.placeholder-page span {
+  color: var(--gold-dark);
+  font-size: 11px;
+  letter-spacing: 3px;
+  margin-bottom: 18px;
+}
+
+.placeholder-page h1 {
+  font-family: var(--heading-font);
+  font-size: clamp(35px, 5vw, 58px);
+  font-weight: 500;
+  color: var(--text);
+}
+
+.placeholder-page p {
+  margin-top: 15px;
+  color: var(--text-light);
+  font-size: 14px;
+}
+
+html {
+  scroll-behavior: auto !important;
+}
+
+body {
+  overflow-x: hidden;
+}
